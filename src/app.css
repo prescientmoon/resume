@@ -10,6 +10,28 @@
   width: 100%;
 }
 
+/*   #root { */
+/*   background-color: #ffffff; /* or any base background color */
+*/
+/*   background-image: radial-gradient(rgba(0, 0, 0, 0.2) 1px, transparent 1px); */
+/*   background-size: 20px 20px; /* spacing between the dots */ */
+/*   background-position: center; */
+/*   } */
+/**/
+/* #root > .cell > .container > .element-aligned-hr { */
+/*   color: black; */
+/*   height: none; */
+/*   border: 1px dashed black; */
+/* } */
+/**/
+/* #root > .cell > .container > hr:last-child { */
+/*   display: none; */
+/* } */
+
+#root .spacing {
+  flex-grow: 1;
+}
+
 #root > .cell {
   display: flex;
   height: 100%;
@@ -78,11 +100,34 @@
   margin-bottom: 0.25rem;
   font-family: sans-serif;
   font-weight: 450;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#root > .cell > .container > .element > .element-title > .element-title-anchor {
+  display: inline-block;
+  transform: translateY(-2px);
+}
+
+#root
+  > .cell
+  > .container
+  > .element
+  > .element-title
+  > .element-inline-subtitle {
+  transform: translateY(2px);
+  font-size: 0.3cm;
+  font-family: sans-serif;
+  font-weight: 390;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row-reverse;
 }
 
 #root > .cell > .container > .element > .element-subtitle {
   margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
   font-size: 0.35cm;
   font-family: sans-serif;
   font-weight: 390;
@@ -91,7 +136,7 @@
 #root > .cell > .container > .element > .element-content {
   margin-top: 0.25rem;
   font-family: sans-serif;
-  text-align: justify;
+  /* text-align: justify; */
   width: 100%;
   font-size: 0.8em;
 }
