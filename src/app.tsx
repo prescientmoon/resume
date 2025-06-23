@@ -190,13 +190,13 @@ export function App() {
         <div class="container">
           <div class="header">Work experience</div>
 
-          <Element title="Wargame arena" inlineSubtitle="Spring of 2022">
-            As a <strong>Purescipt</strong> freelancer, I worked on the
-            development of an interactive UI for a wargame playing platform. I
-            solved tasks ranging from bringing mockup UIs to reality using{" "}
-            <strong>Halogen</strong> and <strong>CSS</strong>, to implementing
-            Firebase-based authentication and interacting with a server using
-            websockets.
+          <Element title="Feram" inlineSubtitle="August 2023 – Spring 2025">
+            As a <strong>Haskell</strong> and <strong>Elm</strong> software
+            engineer, I worked on multiple features of Airsequel — a SQL
+            management service that generates GraphQL APIs for the underlying
+            data. Features I have worked on include a cloud function runtime
+            supporting sandboxing for multiple languages, and a dynamic GraphQL
+            introspection system on top of SQL.
           </Element>
 
           <Element title="Visonum" inlineSubtitle="June 2022 – April 2023">
@@ -205,28 +205,29 @@ export function App() {
             about writing quality unit tests, processing streams of data and
             integrating PureScript into existing Javascript codebases.
           </Element>
-          <Element title="Feram" inlineSubtitle="August 2023 – Present">
-            As a <strong>Haskell</strong> and <strong>Elm</strong> software
-            engineer, I worked on multiple features of Airsequel — a SQL
-            management service that generates GraphQL APIs for the underlying
-            data. Features I have worked on include a cloud function runtime
-            supporting sandboxing for multiple languages, and a dynamic GraphQL
-            introspection system on top of SQL.
+
+          <Element title="Wargame arena" inlineSubtitle="Spring of 2022">
+            As a <strong>Purescipt</strong> freelancer, I worked on the
+            development of an interactive UI for a wargame playing platform. I
+            solved tasks ranging from bringing mockup UIs to reality using{" "}
+            <strong>Halogen</strong> and <strong>CSS</strong>, to implementing
+            Firebase-based authentication and interacting with a server using
+            websockets.
           </Element>
         </div>
         <div class="container" id="education">
           <div class="header">Education</div>
           <Element
+            title="BSC Mathematics"
+            subtitle={<IconDate>September 2022 – June 2025</IconDate>}
+          >
+            University of Groningen
+          </Element>
+          <Element
             title="Math and Computer Science"
             subtitle={<IconDate>September 2018 – June 2022</IconDate>}
           >
             Ștefan Demetrescu high school
-          </Element>
-          <Element
-            title="BSC Mathematics"
-            subtitle={<IconDate>September 2022 – present</IconDate>}
-          >
-            University of Groningen
           </Element>
         </div>
       </div>
@@ -258,14 +259,14 @@ export function App() {
           <div id="skills">
             <div class="skill-level">Proeficient</div>
             <div class="skill-contents">
-              Purescript – TypeScript – Haskell – NodeJs — Neovim
+              Purescript – TypeScript – Haskell – NodeJs – Neovim
             </div>
             <div class="skill-level">Intermediate</div>
             <div class="skill-contents">
-              Rust – Elm – Nix – Python – Lua - LaTeX - Typst
+              Rust – Elm – Nix – Python – Lua – LaTeX – Typst – SQL – Odin
             </div>
             <div class="skill-level">Beginner</div>
-            <div class="skill-contents">F# – Lean – Idris</div>
+            <div class="skill-contents">F# – Lean – Idris – C</div>
           </div>
         </div>
         <div class="spacing" />
