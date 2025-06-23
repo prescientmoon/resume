@@ -241,7 +241,7 @@ export function App() {
           >
             InfoEducație (the olympiad of digital creation and innovation) is a
             country-wide programming contest in Romania. The contestants develop
-            a project, which then they present to a group of judges across
+            a project, which they then present to a group of judges across
             multiple phases. The top 5 contestants for each predefined category
             go on to compete in a 24h hackaton. I have competed and{" "}
             <strong>
